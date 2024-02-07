@@ -12,7 +12,8 @@ body {
 }
 
 .section {
-
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .container {
@@ -22,21 +23,26 @@ body {
 	padding-right: 20px;
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 375px) {
 	.container {
 		max-width: 375px;
 	}
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 	.container {
 		max-width: 768px;
 		padding-left: 32px;
 		padding-right: 32px;
 	}
+
+	.section {
+		padding-top: 75px;
+		padding-bottom: 75px;
+	}
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
 	.container {
 		max-width: 1280px;
 		padding-left: 50px;
@@ -44,11 +50,12 @@ body {
 	}
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
 	.container {
 		max-width: 1440px;
 	}
 }
+
 .no-scroll {
 	overflow: hidden;
 }
