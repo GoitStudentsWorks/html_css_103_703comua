@@ -1,3 +1,10 @@
+:root {
+	--main-color1: #040306;
+	--main-color2: #0E1823;
+	--main-color3: #1B414B;
+	--main-color4: #FBFBFB;
+}
+
 body {
 	font-family: "Inter", sans-serif;
 	font-size: 16px;
