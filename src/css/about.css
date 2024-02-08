@@ -1,0 +1,143 @@
+.about-section {
+  padding-top: -35px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.about-container {
+  background-color: #fbfbfb;
+  border-radius: 24px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+.about-it-container {
+}
+.about-head,
+.about-design-text,
+.about-call-text {
+  color: #1b414b;
+}
+.about-img {
+  background-color: #0e1823;
+  border-radius: 24px;
+  position: relative;
+}
+
+/*--------------------------------*/
+
+
+@media screen and (max-width: 767px) {
+  .about-it-text-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .about-head {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+  }
+  .about-text-container {
+    margin-bottom: 40px;
+  }
+  .about-design-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .about-call-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+  }
+}
+
+/*--------------------------------*/
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    padding-top: 50px;
+  }
+  .about-head {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .about-design-text {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .about-call-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+}
+
+/*--------------------------------*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-it-text-container {
+    margin-left: 32px;
+  }
+  .about-head {
+    margin-bottom: 50px;
+    width: 536px;
+  }
+  .about-text-container {
+    width: 389px;
+    margin-bottom: 50px;
+  }
+  .about-design-text {
+    margin-bottom: 20px;
+  }
+}
+
+/*--------------------------------*/
+
+
+@media screen and (min-width: 1280px) {
+  .about-it-text-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+  }
+  .about-head {
+    width: 536px;
+  }
+  .about-text-container {
+    width: 354px;
+  }
+  .about-design-text {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-it-text-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+  }
+  .about-head {
+    width: 536px;
+  }
+  .about-text-container {
+    width: 354px;
+  }
+  .about-design-text {
+    margin-bottom: 20px;
+  }
+}
