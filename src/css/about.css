@@ -5,29 +5,28 @@
 }
 
 .about-container {
+}
+.about-iner {
   background-color: #fbfbfb;
   border-radius: 24px;
   padding-top: 40px;
-  overflow: hidden;
-}
-.about-it-container {
 }
 .about-head,
 .about-design-text,
 .about-call-text {
   color: #1b414b;
 }
-.about-img {
+.about-picture {
   background-color: #0e1823;
   border-radius: 24px;
   position: relative;
+  bottom: -24px;
 }
 
 /*--------------------------------*/
 
-
 @media screen and (max-width: 767px) {
-  .about-it-text-container {
+  .about-it-text {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -59,7 +58,7 @@
 /*--------------------------------*/
 
 @media screen and (min-width: 768px) {
-  .about-container {
+  .about-iner {
     padding-top: 50px;
   }
   .about-head {
@@ -84,9 +83,8 @@
 
 /*--------------------------------*/
 
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .about-it-text-container {
+  .about-it-text {
     margin-left: 32px;
   }
   .about-head {
@@ -104,9 +102,8 @@
 
 /*--------------------------------*/
 
-
 @media screen and (min-width: 1280px) {
-  .about-it-text-container {
+  .about-it-text {
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
@@ -124,7 +121,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .about-it-text-container {
+  .about-it-text {
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
