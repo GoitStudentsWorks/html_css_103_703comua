@@ -1,3 +1,134 @@
 .reviews-title {
-color: #FBFBFB;
+color: var(--main-color4);
+text-align: center;
+font-size: 28px;
+font-weight: 500;
+line-height: 1;
+letter-spacing: -0.02em;
+margin-bottom: 25px;
+}
+
+.reviews-text {
+    color: var(--main-color4);
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    opacity: 0.4;
+    margin-bottom: 40px;
+}
+
+.reviews-list-item:not(:first-child) {
+    display: none;
+}
+
+
+.reviews-card {
+    background-color: var(--main-color4);
+    padding: 32px 8px;
+    border-radius: 24px;
+}
+
+.reviews-user-photo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.reviews-user-name {
+    color: var(--main-color1);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+}
+
+.reviews-user-text {
+    color: rgba(4, 3, 6, 0.40);
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+
+.reviews-list-item {
+    width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+    .reviews-list-item {
+        width: 335px;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-title {
+        font-size: 48px;
+        }
+
+    .reviews-text {
+        font-size: 14px;
+        line-height: 1.29;
+        margin-bottom: 75px;
+        max-width: 571px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reviews-list {
+       display: flex;
+       justify-content: center;
+       gap: 32px;
+    } 
+
+    .reviews-list-item:nth-child(-n+2) {
+        display: block;
+    }
+
+    .reviews-list-item {
+        width: 336px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .reviews-title {
+        max-width: 854px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reviews-list {
+        gap: 26px;
+    }
+
+    .reviews-list-item:last-child {
+        display: block;
+    }
+
+    .reviews-list-item {
+        width: 376px;
+    }
+
+    .reviews-card {
+        padding: 32px 28px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+   .reviews-container {
+       padding: 0 100px;
+   }
+
+   .reviews-list {
+       gap: 32px;
+   }
+
+   .reviews-list-item {
+    width: 392px;
+}
+
+   .reviews-card {
+    padding: 32px 36px;
+}
 }
