@@ -1,45 +1,47 @@
 <section class="section rent" id="rent">
   <div class="container rent-container">
-    <h2 class="rent-title">Rent a yacht now</h2>
-    <form name="rent-form">
-      <input
-        class="form-input"
-        type="text"
-        name="user-name"
-        id="user-name"
-        placeholder="Full Name"
-        pattern="\w{3,25}"
-        aria-label="Enter your name"
-        required
-      />
-      <input
-        class="form-input"
-        type="email"
-        name="user-email"
-        id="user-email"
-        placeholder="Email"
-        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-        aria-label="Enter your email"
-      />
-      <input
-        class="form-input"
-        type="tel"
-        name="user-phone"
-        id="user-phone"
-        placeholder="Phone number"
-        pattern="[0-9]{3}"
-        aria-label="Enter your phone"
-        required
-      />
-      <textarea
-        class="form-textarea"
-        name="user-comment"
-        id="user-comment"
-        placeholder="Comment"
-        aria-label="Enter your comment"
-      ></textarea>
-      <button class="form-send-btn" type="submit">Send</button>
-    </form>
+    <div class="rent-inner">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form name="rent-form">
+        <input
+          class="form-input"
+          type="text"
+          name="user-name"
+          id="user-name"
+          placeholder="Full Name"
+          pattern="[A-Za-z]{3,25}"
+          aria-label="Enter your name"
+          required
+        />
+        <input
+          class="form-input"
+          type="email"
+          name="user-email"
+          id="user-email"
+          placeholder="Email"
+          pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+          aria-label="Enter your email"
+        />
+        <input
+          class="form-input"
+          type="tel"
+          name="user-phone"
+          id="user-phone"
+          placeholder="Phone number"
+          pattern="[0-9]{5,10}"
+          aria-label="Enter your phone"
+          required
+        />
+        <textarea
+          class="form-textarea"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Comment"
+          aria-label="Enter your comment"
+        ></textarea>
+        <button class="form-send-btn" type="submit">Send</button>
+      </form>
+    </div>
     <picture>
       <source
         srcset="
