@@ -4,14 +4,11 @@
 .container-advantages {
 }
 
-.advantages-wrap {
-}
-
 ol {
   margin: 0 auto;
   list-style-type: none;
   counter-reset: num;
-  padding: 145px 20px 80px;
+  padding: 80px 20px;
 }
 
 .advantages-list {
@@ -25,16 +22,11 @@ ol {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
+  max-width: 295px;
 }
 
 .adavntages-item:not(:last-child) {
-  margin-bottom: 106px;
-}
-
-ol li {
-  position: relative;
-  max-width: 295px;
-  display: block;
+  margin-bottom: 40px;
 }
 
 ol li::before {
@@ -45,14 +37,69 @@ ol li::before {
   line-height: 1;
   letter-spacing: -0.05em;
   display: block;
-  position: absolute;
-  top: -60px;
-  left: 0;
   border-bottom: 2px solid rgba(251, 251, 251, 0.1);
-  padding-bottom: 15px;
+  padding-bottom: 18px;
+  width: 100%;
+  position: relative;
+  top: -18px;
 }
 
 .advantages-img {
   min-height: 424px;
   border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  ol {
+    padding: 90px 32px;
+  }
+
+  .advantages-list {
+    margin-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 44px;
+  }
+
+  .adavntages-item {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.15;
+    max-width: 292px;
+  }
+
+  ol li::before {
+    font-size: 32px;
+  }
+
+  .advantages-img {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  ol {
+    padding: 90px 62px 90px 50px;
+  }
+
+  .advantages-wrap {
+    display: flex;
+  }
+
+  .advantages-list {
+    margin-bottom: unset;
+    margin-right: 32px;
+    gap: 44px;
+    justify-content: center;
+  }
+
+  .advantages-img {
+    width: 424px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  ol {
+    padding: 90px 32px;
+  }
 }
