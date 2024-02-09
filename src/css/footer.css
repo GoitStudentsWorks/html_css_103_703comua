@@ -1,0 +1,118 @@
+.footer {
+  width: 100%;
+  padding: 50px 0;
+  top: 0;
+}
+
+.footer-container-iner {
+  width: 100%;
+  height: 418px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: var(--main-color3);
+}
+
+.footer-logo {
+  color: var(--main-color4);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.03px;
+}
+
+.footer-navigation-list {
+  display: none;
+  
+}
+.footer-navigation-link{
+  color: var(--main-color4);
+}
+
+.footer-soc-list {
+  display: none;
+}
+
+/* Media */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .footer {
+    padding-top: 20px;
+  }
+  .footer-container {
+    min-width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 32px;
+  }
+  .footer-container {
+    min-width: 704px;
+    
+    justify-content: space-between;
+  }
+  .footer-navigation {
+    display: flex;
+    align-items: flex-start;
+  }
+  .footer-logo {
+    font-size: 20px;
+    margin-right: 109px;
+  }
+  .footer-navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .footer-navigation-item {
+    display: flex;
+    background: rgba(251, 251, 251, 0.3);
+    color: var(--main-color2);
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 91px;
+    height: 40px;
+    transition: background-color 250ms ease-in-out;
+  }
+
+  .footer-navigation-item:hover,
+  .footer-navigation-item:focus {
+    background: var(--main-color4);
+    color: var(--main-color3);
+  }
+  .footer-soc-list {
+    display: flex;
+    gap: 8px;
+    margin-left: 96px;
+  }
+
+  .footer-soc-item {
+    fill: var(--main-color4);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    min-width: 1080px;
+  }
+  .footer-logo {
+    margin-right: 296px;
+  }
+  .footer-soc-list {
+    margin-left: 281px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    min-width: 1240px;
+  }
+  .footer-logo {
+    margin-right: 375px;
+  }
+  .footer-soc-list {
+    margin-left: 362px;
+  }
+}
