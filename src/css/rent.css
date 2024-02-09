@@ -92,3 +92,78 @@
   width: 100%;
   border-radius: 24px;
 }
+
+@media screen and (min-width: 768px) {
+  .rent-inner {
+    width: 472px;
+    margin: 0 auto;
+  }
+
+  .rent-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  .form-input {
+    height: 54px;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .form-input::placeholder {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .form-textarea {
+    height: 116px;
+    padding: 18px;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 50px;
+  }
+
+  .form-textarea::placeholder {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .form-send-btn {
+    padding: 18px 75px;
+    font-size: 18px;
+    line-height: 1.1;
+    min-width: 194px;
+    margin-bottom: 100px;
+  }
+
+  .rent-img {
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .rent-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+  }
+
+  .form-send-btn {
+    margin-bottom: 0;
+  }
+
+  .rent-img {
+    max-width: 658px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .rent-img {
+    max-width: 768px;
+  }
+
+  .rent-inner {
+    width: 522px;
+    padding-right: 50px;
+  }
+}
