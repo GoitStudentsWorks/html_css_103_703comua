@@ -85,6 +85,11 @@ margin-bottom: 25px;
     .reviews-list-item {
         width: 336px;
     }
+
+    .reviews-list-item:nth-child(n+2) {
+        padding-left: 20px;
+        padding-right: 20px;
+        } 
 }
 
 @media screen and (min-width: 1280px) {
@@ -98,13 +103,15 @@ margin-bottom: 25px;
         gap: 26px;
     }
 
-    .reviews-list-item:last-child {
-        display: block;
-    }
-
-    .reviews-list-item {
+    .reviews-list-item:not(:last-child) {
         width: 376px;
         padding: 32px 28px;
+    }
+
+    .reviews-list-item:last-child {
+        display: block;
+        padding-left: 41.5px;
+        padding-right: 41.5px;
     }
 }
 
@@ -121,4 +128,10 @@ margin-bottom: 25px;
     width: 392px;
     padding: 32px 36px;
 }
+
+  .reviews-list-item:last-child {
+    padding-left: 49.5px;
+    padding-right: 49.5px;
+}
+
 }
