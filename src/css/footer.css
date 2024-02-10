@@ -20,6 +20,8 @@
 .footer-nav-bar {
   display: flex;
   margin-bottom: 96px;
+  width: 1240px;
+  justify-content: space-between;
 }
 .footer-logo {
   color: var(--main-color4);
