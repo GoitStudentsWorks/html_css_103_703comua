@@ -53,12 +53,17 @@ margin-bottom: 25px;
 }
 
 @media screen and (min-width: 375px) {
+    
     .reviews-list-item {
-        width: 335px;
+        width: 100%;
         }
 }
 
 @media screen and (min-width: 768px) {
+    .reviews-container {
+        padding-bottom: 150px;
+    }
+    
     .reviews-title {
         font-size: 48px;
         }
@@ -74,7 +79,6 @@ margin-bottom: 25px;
 
     .reviews-list {
        display: flex;
-       justify-content: center;
        gap: 32px;
     } 
 
@@ -83,7 +87,7 @@ margin-bottom: 25px;
     }
 
     .reviews-list-item {
-        width: 336px;
+        width: calc((100% - 32px) / 2);
     }
 
     .reviews-list-item:nth-child(n+2) {
@@ -103,8 +107,11 @@ margin-bottom: 25px;
         gap: 26px;
     }
 
+    .reviews-list-item {
+        width: calc((100% - 52px) / 3);
+    }
+
     .reviews-list-item:not(:last-child) {
-        width: 376px;
         padding: 32px 28px;
     }
 
@@ -117,7 +124,8 @@ margin-bottom: 25px;
 
 @media screen and (min-width: 1440px) {
    .reviews-container {
-       padding: 0 100px;
+       padding-left: 100px;
+       padding-right: 100px;
    }
 
    .reviews-list {
@@ -125,7 +133,10 @@ margin-bottom: 25px;
    }
 
    .reviews-list-item {
-    width: 392px;
+    width: calc((100% - 64px) / 3);
+   }
+
+   .reviews-list-item:not(:last-child) {
     padding: 32px 36px;
 }
 
