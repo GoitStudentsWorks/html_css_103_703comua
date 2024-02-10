@@ -5,8 +5,9 @@
     padding: 260px 0 243px 0;
     background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
     url(/img/hero/hero-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
 
 }
 
@@ -21,9 +22,9 @@
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
     .hero-section {
-        background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
-            url(/img/hero/hero-mobile@2x.jpg);
-    }
+    background-image: linear-gradient(360deg, #11131f 15.05%, rgba(17, 19, 31, 0.39) 75.3%, rgba(17, 19, 31, 0) 98.27%),
+    url(/img/hero/hero-mobile@2x.jpg);
+  }
 }
 
 .hero-title {
@@ -77,7 +78,9 @@ screen and (min-resolution: 2dppx) {
     color:var(--main-color3);
     background-color: #fbfbfb;
 }
-/** TTABLET **/
+
+/* ==================== Tablet HERO ============= */
+
 @media screen and (min-width: 768px) {
     .hero {
         padding: 200px 0 215px 0;
