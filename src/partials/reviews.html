@@ -11,14 +11,25 @@
     </p>
     <ul class="reviews-list">
       <li class="reviews-list-item">
-        <img
-          class="reviews-user-photo"
-          srcset="./img/reviews2/john.png 1x, ./img/reviews2/john@2x.png 2x"
-          src="./img/reviews2/john.png"
-          alt="reviews-photo"
-          width="56"
-          height="56"
-        />
+        <picture>
+          <source
+            srcset="./img/reviews2/john.webp 1x, ./img/reviews2/john@2x.webp 2x"
+            media="(min-width: 320px)"
+            type="image/webp"
+          />
+          <source
+            srcset="./img/reviews2/john.png 1x, ./img/reviews2/john@2x.png 2x"
+            media="(min-width: 320px)"
+            type="image/png"
+          />
+          <img
+            class="reviews-user-photo"
+            src="./img/reviews2/john.png"
+            alt="reviews-photo"
+            width="56"
+            height="56"
+          />
+        </picture>
         <h3 class="reviews-user-name">John Wax</h3>
         <p class="reviews-user-text">
           I rented the Lagoon 620 with my family for a week-long vacation and it
@@ -27,17 +38,31 @@
         </p>
       </li>
       <li class="reviews-list-item">
-        <img
-          class="reviews-user-photo"
-          srcset="
-            ./img/reviews2/victoria.png    1x,
-            ./img/reviews2/victoria@2x.png 2x
-          "
-          src="./img/reviews2/victoria.png"
-          alt="reviews-photo"
-          width="56"
-          height="56"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/reviews2/victoria.webp    1x,
+              ./img/reviews2/victoria@2x.webp 2x
+            "
+            media="(min-width: 320px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./img/reviews2/victoria.png    1x,
+              ./img/reviews2/victoria@2x.png 2x
+            "
+            media="(min-width: 320px)"
+            type="image/png"
+          />
+          <img
+            class="reviews-user-photo"
+            src="./img/reviews2/victoria.png"
+            alt="reviews-photo"
+            width="56"
+            height="56"
+          />
+        </picture>
         <h3 class="reviews-user-name">Victoria Romashenko</h3>
         <p class="reviews-user-text">
           The Sunseeker Manhattan 66 was the perfect choice for our romantic
@@ -46,14 +71,25 @@
         </p>
       </li>
       <li class="reviews-list-item">
-        <img
-          class="reviews-user-photo"
-          srcset="./img/reviews2/ihor.png 1x, ./img/reviews2/ihor@2x.png 2x"
-          src="./img/reviews2/ihor.png"
-          alt="reviews-photo"
-          width="56"
-          height="56"
-        />
+        <picture>
+          <source
+            srcset="./img/reviews2/ihor.webp 1x, ./img/reviews2/ihor@2x.webp 2x"
+            media="(min-width: 320px)"
+            type="image/webp"
+          />
+          <source
+            srcset="./img/reviews2/ihor.png 1x, ./img/reviews2/ihor@2x.png 2x"
+            media="(min-width: 320px)"
+            type="image/png"
+          />
+          <img
+            class="reviews-user-photo"
+            src="./img/reviews2/ihor.png"
+            alt="reviews-photo"
+            width="56"
+            height="56"
+          />
+        </picture>
         <h3 class="reviews-user-name">Ihor Trachuk</h3>
         <p class="reviews-user-text">
           The Azimut 80 was the most luxurious yacht I've ever been on. The
