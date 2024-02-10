@@ -53,14 +53,14 @@
 .yachts-subtitle {
     color: #1B414B;
     font-size: 16px;
-    line-height: 0.13;
+    line-height: 1.2;
     letter-spacing: -0.04em;
 }
 
 .yachts-text {
     color: #040306;
     font-size: 13px;
-    line-height: 0.11;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -75,7 +75,7 @@
 .yachts-item-categories {
     color: #040306;
     font-size: 14px;
-    line-height: 1.12;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -96,5 +96,10 @@
     border: 1px solid rgba(251, 251, 251, 0.35);
 }
 
-
+.yacht-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 177px;
+}
 
