@@ -6,7 +6,7 @@
 
 .about-container {
 }
-.about-iner {
+.about-text {
   background-color: #fbfbfb;
   border-radius: 24px;
   padding-top: 40px;
@@ -26,7 +26,7 @@
 /*--------------------------------*/
 
 @media screen and (max-width: 767px) {
-  .about-it-text {
+  .about-text {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -84,7 +84,7 @@
 /*--------------------------------*/
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .about-it-text {
+  .about-text {
     margin-left: 32px;
   }
   .about-head {
@@ -103,7 +103,7 @@
 /*--------------------------------*/
 
 @media screen and (min-width: 1280px) {
-  .about-it-text {
+  .about-text {
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
@@ -121,7 +121,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .about-it-text {
+  .about-text {
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
