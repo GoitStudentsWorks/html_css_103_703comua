@@ -1,5 +1,6 @@
-.about-section {
-  padding-top: -35px;
+.about {
+  position: relative;
+  top: -35px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -9,7 +10,7 @@
 .about-text {
   background-color: #fbfbfb;
   border-radius: 24px;
-  padding-top: 40px;
+  padding: 50px 50px 150px 50px;
 }
 .about-head,
 .about-design-text,
@@ -20,7 +21,7 @@
   background-color: #0e1823;
   border-radius: 24px;
   position: relative;
-  bottom: -24px;
+  bottom: 50px;
 }
 
 /*--------------------------------*/
@@ -85,7 +86,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .about-text {
-    margin-left: 32px;
   }
   .about-head {
     margin-bottom: 50px;
@@ -106,9 +106,6 @@
   .about-text {
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 100px;
   }
   .about-head {
     width: 536px;
@@ -124,9 +121,6 @@
   .about-text {
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 100px;
   }
   .about-head {
     width: 536px;
