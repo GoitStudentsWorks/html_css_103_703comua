@@ -1,14 +1,15 @@
 .header {
 width: 100%;
-padding: 20px 0;
 position: absolute;
-top: 0;
+top: 20px;
+left: 0;
 transition: translateY(50%);
 }
 
 .header-container {
     width: calc(100% - 40px);
-    height: 42px;
+    padding-top: 12px;
+    padding-bottom: 13px;
     background: var(--main-color4);
     border: 1px solid var(--main-color4);
     border-radius: 8px;
@@ -67,9 +68,6 @@ transition: translateY(50%);
     }
 }
 @media screen and (min-width: 375px) and (max-width: 767px){
-    .header {
-        padding-top: 20px;
-    }
     .header-container {
         min-width: 335px;
     }
@@ -77,12 +75,14 @@ transition: translateY(50%);
 
 @media screen and (min-width: 768px) {
     .header {
-        padding-top: 32px;
-    }    
+        top: 32px;
+    }
+
     .header-container {
         min-width: 704px;
         width: 704px;
-        height: 48px;
+        padding-top: 4px;
+        padding-bottom: 4px;
         justify-content: space-between;
     }
     .navigation {
@@ -98,7 +98,8 @@ transition: translateY(50%);
         align-items: center;
         gap: 4px;
     }
-    .header-navigation-item {
+
+    .header-navigation-link {
         display: flex;
         background: rgba(27, 65, 75, 0.50);
         align-items: center;
@@ -109,9 +110,22 @@ transition: translateY(50%);
         transition: background-color 250ms ease-in-out;
     }
 
-    .header-navigation-item:hover,
-    .header-navigation-item:focus {
+    .header-navigation-link:hover,
+    .header-navigation-link:focus {
         background: var(--main-color3);
+    }
+
+    .header-navigation-link.active {
+        background: var(--main-color3);
+    }
+
+    .header-navigation-item {
+        color: var(--main-color4);
+        text-align: center;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 130%;
+        text-transform: uppercase;
     }
 
     .mob-menu-open-btn {
@@ -121,10 +135,15 @@ transition: translateY(50%);
     .header-soc-list {
         display: flex;
         gap: 8px;
-        margin-left: 96px;
+        align-items: center;
+    }
+
+    .header-soc-link {
+        display: block;
     }
 
         .header-soc-icon {
+        display: block;
         fill: var(--main-color3);
     }
 }
@@ -137,9 +156,6 @@ transition: translateY(50%);
     .header-logo {
         margin-right: 296px;
     }
-    .header-soc-list {
-        margin-left: 281px;
-    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -149,9 +165,6 @@ transition: translateY(50%);
     }
     .header-logo {
         margin-right: 375px;
-    }
-    .header-soc-list {
-        margin-left: 362px;
     }
 }
 
