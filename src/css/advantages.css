@@ -62,7 +62,7 @@ ol li::before {
   .adavntages-item {
     font-size: 13px;
     line-height: 1.15;
-    width: calc(50% - 16px);
+    width: calc((100% - 32px) / 2);
   }
 
   .adavntages-item:not(:last-child) {
@@ -94,7 +94,7 @@ ol li::before {
   }
 
   .adavntages-item {
-    width: calc(50% - 22px);
+    width: calc((100% - 44px) / 2);
   }
 
   .advantages-img {
@@ -112,7 +112,7 @@ ol li::before {
   }
 
   .adavntages-item {
-    width: calc(50% - 16px);
+    width: calc((100% - 32px) / 2);
   }
 
   .advantages-img {
