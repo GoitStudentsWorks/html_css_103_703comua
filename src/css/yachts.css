@@ -17,6 +17,7 @@
 .yachts-list {
     display: flex;
     gap: 32px;
+    margin-bottom: 50px;
 }
 
 .yachts-item {
@@ -38,8 +39,15 @@
 .yachts-text-container{
     display: flex;
     align-items: center;
-    padding: 16px;
+    padding-bottom: 16px;
     justify-content: space-between;
+    padding-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.decorative-line {
+    border-bottom:1px solid rgba(4, 3, 6, 0.10);;
 }
 
 .yachts-subtitle {
@@ -77,3 +85,16 @@
     line-height: 1.12;
     letter-spacing: 0.03em;
 }
+
+.yachts-link {
+    color: var(--main-color4);
+    font-size: 18px;
+    line-height: 0.16;
+    letter-spacing: -0.02em;
+    padding: 16px 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+}
+
+
+
