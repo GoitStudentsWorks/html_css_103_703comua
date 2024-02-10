@@ -1,35 +1,33 @@
 .about {
   position: relative;
   top: -35px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .about-container {
 }
 .about-text {
-  background-color: #fbfbfb;
+  background-color: var(--main-color4);
   border-radius: 24px;
   padding: 50px 50px 150px 50px;
 }
 .about-head,
-.about-design-text,
-.about-call-text {
-  color: #1b414b;
+.about-design-text {
+  color: var(--main-color3);
 }
 .about-picture {
-  background-color: #0e1823;
+  background-color: var(--main-color2);
   border-radius: 24px;
   position: relative;
   bottom: 50px;
 }
-
+.about-call-text {
+  color: var(--main-color1);
+}
 /*--------------------------------*/
 
 @media screen and (max-width: 767px) {
   .about-text {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 40px 20px 50px 20px;
   }
   .about-head {
     font-size: 28px;
@@ -86,10 +84,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .about-text {
+    padding-left: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .about-head {
-    margin-bottom: 50px;
     width: 536px;
+    margin-bottom: 50px;
   }
   .about-text-container {
     width: 389px;
@@ -108,7 +109,7 @@
     justify-content: space-between;
   }
   .about-head {
-    width: 536px;
+    width: 537px;
   }
   .about-text-container {
     width: 354px;
@@ -123,10 +124,10 @@
     justify-content: space-between;
   }
   .about-head {
-    width: 536px;
+    width: 537px;
   }
   .about-text-container {
-    width: 354px;
+    width: 404px;
   }
   .about-design-text {
     margin-bottom: 20px;
