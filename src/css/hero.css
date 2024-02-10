@@ -148,6 +148,7 @@ screen and (min-resolution: 2dppx) {
     .hero-link{
         padding: 16px 40px;
         font-size: 18px;
+        font-weight: 500;
         line-height: 1.1;
         letter-spacing: -0.02em;        
     }
