@@ -62,7 +62,7 @@ ol li::before {
   .adavntages-item {
     font-size: 13px;
     line-height: 1.15;
-    width: calc(50% - 32px);
+    width: calc(50% - 16px);
   }
 
   .adavntages-item:not(:last-child) {
@@ -80,7 +80,7 @@ ol li::before {
 
 @media screen and (min-width: 1280px) {
   ol {
-    padding: 90px 18px 90px 50px;
+    padding: 90px 50px;
   }
 
   .advantages-wrap {
@@ -94,7 +94,7 @@ ol li::before {
   }
 
   .adavntages-item {
-    width: calc(50% - 44px);
+    width: calc(50% - 22px);
   }
 
   .advantages-img {
@@ -109,11 +109,10 @@ ol li::before {
 
   .advantages-list {
     gap: 44px 32px;
-    justify-content: space-evenly;
   }
 
   .adavntages-item {
-    width: calc(50% - 32px);
+    width: calc(50% - 16px);
   }
 
   .advantages-img {
