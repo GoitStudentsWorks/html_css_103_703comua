@@ -9,7 +9,7 @@
           name="user-name"
           id="user-name"
           placeholder="Full Name"
-          pattern="[A-Za-z]{3,25}"
+          pattern="[A-Za-zА-Яа-яЁёІіЇї ]{3,25}"
           aria-label="Enter your name"
           required
         />
@@ -28,7 +28,7 @@
           name="user-phone"
           id="user-phone"
           placeholder="Phone number"
-          pattern="[0-9]{5,10}"
+          pattern="[+()-0-9 ]{5,19}"
           aria-label="Enter your phone"
           required
         />
@@ -93,8 +93,8 @@
       />
       <source
         srcset="
-          ./img/rent/img-rent-mob.jpg          1x,
-          ./imimg/rentages/img-rent-mob-2x.jpg 2x
+          ./img/rent/img-rent-mob.jpg    1x,
+          ./img/rent/img-rent-mob-2x.jpg 2x
         "
         media="(max-width: 767px)"
         type="image/jpg"
