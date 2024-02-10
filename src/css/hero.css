@@ -137,7 +137,13 @@ screen and (min-resolution: 2dppx) {
     .hero-title {
         font-size: 80px;
         max-width: 1001px;
+        font-weight: 500;
     }
+
+    .hero-info{
+        line-height: 1.375;
+    }
+
 
     .hero-link{
         padding: 16px 40px;
