@@ -86,7 +86,7 @@ transition: translateY(50%);
     }
 
     .header-container {
-        min-width: 704px;
+        min-width: 706px;
         width: 704px;
         padding-top: 13px;
         padding-bottom: 13px;
@@ -101,6 +101,7 @@ transition: translateY(50%);
     }
     .header-logo {
         font-size: 20px;
+        line-height: normal;
     }
     .header-navigation-list {
         display: flex;
@@ -175,7 +176,7 @@ transition: translateY(50%);
 
 @media screen and (min-width: 1280px) {
     .header-container {
-        min-width: 1080px;
+        min-width: 1082px;
         width: 1080px;
         padding-left: 31px;
         padding-right: 33px;
@@ -184,7 +185,7 @@ transition: translateY(50%);
 
 @media screen and (min-width: 1440px) {
     .header-container {
-        min-width: 1240px;
+        min-width: 1242px;
         width: 1240px;
     }
 }
