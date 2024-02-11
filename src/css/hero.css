@@ -127,6 +127,7 @@ screen and (min-resolution: 2dppx) {
         min-width: 179px;
         height: 52px;
         letter-spacing: -0.02em;
+        line-height: 1.10;
     }
 }
 
