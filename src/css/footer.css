@@ -1,6 +1,7 @@
 .footer {
   width: 100%;
- }
+  padding-top: 75px;
+}
 
 .footer-container {
   max-width: 1390px;
@@ -15,32 +16,7 @@
   position: relative;
   background-color: var(--main-color3);
 }
-.footer-navbar {
-  display: flex;
-  margin-bottom: 96px;
-  max-width: 1240px;
-  justify-content: space-between;
-}
-.footer-logo {
-  color: var(--main-color4);
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: -0.03px;
-}
-
-.footer-navigation-list {
-  display: none;
-}
-.footer-navigation-link {
-  font-size: 9px;
-  text-transform: uppercase;
-  color: var(--main-color4);
-}
-
-.footer-soc-list {
-  display: none;
-}
-.footer-title {
+.footer-slogan {
   max-width: 699px;
   max-height: 399px;
   margin-bottom: 99px;
@@ -60,14 +36,22 @@
 }
 
 /* Footer-navbar */
-
+.footer-navbar {
+  display: flex;
+  margin-bottom: 96px;
+  max-width: 1240px;
+  justify-content: space-between;
+}
+.footer-logo {
+  color: var(--main-color4);
+  font-weight: 500;
+  letter-spacing: -0.03px;
+  font-size: 20px;
+  margin-right: 109px;
+}
 .footer-navigation {
   display: flex;
   align-items: flex-start;
-}
-.footer-logo {
-  font-size: 20px;
-  margin-right: 109px;
 }
 .footer-navigation-list {
   display: flex;
@@ -79,6 +63,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 9px;
+  text-transform: uppercase;
   width: 91px;
   height: 40px;
   border-radius: 8px;
@@ -99,26 +85,34 @@
   margin-left: 96px;
 }
 
-.footer-soc-item {
+.footer-soc-item,
+.footer-soc-item :visited {
   fill: var(--main-color4);
 }
+
 .footer-soc-item :hover,
-.footer-soc-item :focus,
-.footer-soc-item :visited{
+.footer-soc-item :focus {
   fill: rgba(251, 251, 251, 0.8);
+}
+.footer-soc-link {
+  display: block;
+  height: 20px;
 }
 /* Media */
 @media screen and (min-width: 375px) and (max-width: 767px) {
+  .footer{
+    padding-top: 40px;
+  }
   .footer-container {
     min-width: 355px;
     flex-shrink: 0;
     height: 412px;
- padding: 40px 30px 20px;
+    padding: 40px 30px 20px;
   }
-  .footer-navbar{
+  .footer-navbar {
     flex-direction: column;
     margin-bottom: 40px;
-    }
+  }
   .footer-navigation {
     display: flex;
     align-items: flex-start;
@@ -152,14 +146,14 @@
     color: var(--main-color3);
     border-radius: 8px;
   }
-  .footer-title {
+  .footer-slogan {
     max-width: 279px;
     max-height: 72px;
     margin-bottom: 82px;
     color: var(--main-color4);
     text-align: center;
     font-size: 18px;
-    line-height: 100%; 
+    line-height: 100%;
     letter-spacing: -0.36px;
   }
   .footer-soc-list {
