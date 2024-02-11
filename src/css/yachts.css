@@ -254,5 +254,7 @@
 
 
 @media screen and (min-width: 1440px) {
-
+    .yachts {
+        padding-top: 65px;
+    }
 }
