@@ -19,7 +19,13 @@
      min-width: calc(100% - 40px)
      width calc(100% - 40px);
     }
+
+    .hero-container{
+        padding: 0 20px 0 20px;
+    }
 }
+
+
 
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
@@ -72,6 +78,7 @@ screen and (min-resolution: 2dppx) {
     margin-bottom: 38px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 24px 0  24px;
 }
 
 .hero-space-link {
