@@ -78,7 +78,7 @@ screen and (min-resolution: 2dppx) {
     border-radius: 15px;
     color: #fbfbfb;
     background-color:var(--main-color3);
-    min-width: 141px;
+    max-width: 141px;
     height: 46px;
     margin-left: auto;
     margin-right: auto;
