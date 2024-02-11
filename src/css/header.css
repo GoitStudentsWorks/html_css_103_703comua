@@ -47,7 +47,7 @@ transition: translateY(50%);
     width: 28px;
     height: 28px;
     padding: 0;
-    right: 20px;
+    right: 21px;
     transform: translateY(-50%);
     top: 50%;
 }
@@ -79,8 +79,13 @@ transition: translateY(50%);
 @media screen and (min-width: 375px) and (max-width: 767px){
     .header-container {
         min-width: 337px;
-        max-height: 44px;
     }
+}
+
+@media screen and (max-width: 767px) {
+    .header-container {
+        max-height: 44px;
+        }
 }
 
 @media screen and (min-width: 768px) {
