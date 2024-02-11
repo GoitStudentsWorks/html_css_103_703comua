@@ -34,12 +34,10 @@
 .yachts-item {
     background-color: var(--main-color4);
     border-radius: 24px;
+    padding: 16px;
 }
 
-.yachts-card {
-    padding: 16px;
-    
-}
+
 
 .yachts-photo{
     width: 100%;
@@ -227,7 +225,7 @@
     }
 
     .yachts-item {
-        width:calc((100% - 50px) / 3)
+        width:calc((100% - 49px) / 3)
         
     }
 
