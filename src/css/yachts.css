@@ -223,7 +223,7 @@
 
     .yachts-item:last-child {
         display: block;
-        margin-left: 0.5px;
+        margin-left: 3px;
     }
 
     .yachts-item {
@@ -232,13 +232,13 @@
     }
 
     .yachts-list {
-        gap: 25px;
+        gap: 23px;
     }
 
     .yachts-text {
         font-size: 13px;
         font-weight: 400;
-        line-height: 1.1;
+        line-height: 1.18;
         letter-spacing: 0.03em;
     }
     
@@ -256,6 +256,7 @@
 
     .yachts-item {
     width: calc((100% - 63.5px) / 3);
+    margin-left: 0.5px;
 
     }
     
