@@ -86,6 +86,7 @@ screen and (min-resolution: 2dppx) {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: -0.02em;
+    font-weight: 500;
 }
 
 .hero-link:hover,
