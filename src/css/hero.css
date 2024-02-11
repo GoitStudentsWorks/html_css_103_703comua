@@ -10,10 +10,10 @@
 
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
     .hero{
-        width: 375px;
-        background-size: 375px;
+     min-width: calc(100% - 40px)
+     width calc(100% - 40px);
     }
 }
 
