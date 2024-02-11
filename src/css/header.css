@@ -70,7 +70,7 @@ transition: translateY(50%);
 
 
 /* Media */
-@media screen and (min-width: 320px) and (max-width: 375px){
+@media screen and (max-width: 375px){
     .header-container {
         min-width: calc(100% - 40px);
         width: calc(100% - 40px);
@@ -273,4 +273,6 @@ transition: translateY(50%);
 
 .mod-soc-icon-instagram {
     margin-right: 1px;
+    width: 19px;
+    height: 19px;
 }
