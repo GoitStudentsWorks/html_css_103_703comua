@@ -168,9 +168,13 @@
     
     .yachts-list {
         display: flex;
-        gap: 32px;
+        gap: 31px;
     }
 
+    .yachts-container {
+            padding-left: 33px;
+                padding-right: 32px;
+    }
     .yachts-item:nth-child(-n+2) {
         display: block;
     }
