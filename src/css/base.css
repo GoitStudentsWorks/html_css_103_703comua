@@ -36,7 +36,7 @@
 	--main-color2: #0E1823;
 	--main-color3: #1B414B;
 	--main-color4: #FBFBFB;
-	
+
 }
 
 body {
@@ -44,6 +44,10 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	background-color: #0e1823;
+}
+
+picture {
+	display: block;
 }
 
 .section {
