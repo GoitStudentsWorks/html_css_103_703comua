@@ -74,7 +74,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 .hero-link {
-    padding: 14px 32px;
+    padding: 12px 27px;
     border-radius: 15px;
     color: #fbfbfb;
     background-color:var(--main-color3);
