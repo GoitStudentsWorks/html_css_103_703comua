@@ -34,7 +34,6 @@
 .yachts-item {
     background-color: var(--main-color4);
     border-radius: 24px;
-    max-width: 334px;
 }
 
 .yachts-card {
@@ -50,11 +49,8 @@
 .yachts-text-container{
     display: flex;
     align-items: center;
-    padding-bottom: 16px;
+    padding: 16px;
     justify-content: space-between;
-    padding-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
 }
 
 .decorative-line {
@@ -68,6 +64,10 @@
     font-size: 14px;
     line-height: 1.1;
     font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 147px
 
 }
 
@@ -168,14 +168,10 @@
     
     .yachts-list {
         display: flex;
-        gap: 32px;
-        justify-content: center;
     }
 
     .yachts-item:nth-child(-n+2) {
         display: block;
-        max-width: 336px;
-        width: 100%;
     }
 
     .yachts-subtitle {
@@ -220,6 +216,7 @@
 
     .yachts-item:last-child {
         display: block;
+        margin-left: 0.5px;
     }
 
     .yachts-item {
@@ -229,7 +226,7 @@
 
     .yachts-list {
         gap: 25px;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .yachts-text {
@@ -243,16 +240,29 @@
 
 @media screen and (min-width: 1440px) {
     .yachts-list {
-        gap: 32px;
+        gap: 31.5px;
     }
 
     .yachts-item {
-    width: calc((100% - 64px) / 3);
+    width: calc((100% - 63.5px) / 3);
     }
 
+<<<<<<< Updated upstream
 }
 
 
 @media screen and (min-width: 1440px) {
 
+=======
+    .yachts {
+        padding-top: 65px;
+    }
+
+    .yachts-container {
+        padding-left: 100.5px;
+        padding-right: 100px;
+    }
+
+
+>>>>>>> Stashed changes
 }
