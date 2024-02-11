@@ -1,6 +1,5 @@
 .about {
   position: relative;
-  top: -35px;
 }
 
 .about-container {
@@ -92,7 +91,7 @@
   .about-text {
     padding-left: 32px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
   .about-head {
     width: 536px;
@@ -125,6 +124,9 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .about {
+  position: relative;
+}
   .about-text {
     display: flex;
     justify-content: space-between;
