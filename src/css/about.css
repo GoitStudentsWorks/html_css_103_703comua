@@ -21,11 +21,14 @@
   bottom: 50px;
 }
 .about-call-text {
-  color: var(--main-color1);
+  color: rgba(4, 3, 6, 0.4);
 }
 /*--------------------------------*/
 
 @media screen and (max-width: 767px) {
+  .about {
+    top: -59px;
+  }
   .about-text {
     padding: 40px 20px 50px 20px;
   }
@@ -57,6 +60,9 @@
 /*--------------------------------*/
 
 @media screen and (min-width: 768px) {
+  .about {
+    top: -67px;
+  }
   .about-iner {
     padding-top: 50px;
   }
