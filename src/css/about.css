@@ -125,7 +125,7 @@
 }
 @media screen and (min-width: 1440px) {
   .about {
-  position: relative;
+  top: -35px;
 }
   .about-text {
     display: flex;
