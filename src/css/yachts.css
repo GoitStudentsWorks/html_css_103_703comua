@@ -172,8 +172,8 @@
     }
 
     .yachts-container {
-            padding-left: 33px;
-                padding-right: 32px;
+        padding-left: 33px;
+        padding-right: 32px;
     }
     .yachts-item:nth-child(-n+2) {
         display: block;
@@ -228,6 +228,7 @@
         margin-left: 3px;
     }
 
+
     .yachts-item {
         width:calc((100% - 49px) / 3)
         
@@ -246,6 +247,8 @@
     
         .yachts-container {
             padding-top: 95px;
+            padding-left: 50px;
+            padding-right: 50px;
         }
 }
 
