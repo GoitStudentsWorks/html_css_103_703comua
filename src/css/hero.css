@@ -271,7 +271,7 @@ screen and (min-resolution: 2dppx) {
         background-image: 
         url(/img/hero/hero-desktop1440.webp);
         background-repeat: no-repeat;
-        background-position:  center;
+        background-position: top center;
     }
 
     @media screen and (min-device-pixel-ratio: 2),
