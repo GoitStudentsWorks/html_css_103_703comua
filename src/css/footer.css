@@ -2,7 +2,7 @@
   width: 100%;
  }
 
-.footer-container-iner {
+.footer-container {
   max-width: 1390px;
   margin: 0 auto;
   width: 100%;
@@ -15,7 +15,7 @@
   position: relative;
   background-color: var(--main-color3);
 }
-.footer-nav-bar {
+.footer-navbar {
   display: flex;
   margin-bottom: 96px;
   max-width: 1240px;
@@ -44,24 +44,22 @@
   max-width: 699px;
   max-height: 399px;
   margin-bottom: 99px;
-}
-.footer-title-text {
   color: var(--main-color4);
   text-align: center;
   font-size: 32px;
   line-height: 100%; /* 32px */
   letter-spacing: -0.64px;
 }
+
 .footer-copyrights {
   display: flex;
   gap: 32px;
   color: rgba(251, 251, 251, 0.4);
   font-size: 14px;
-  font-style: normal;
   letter-spacing: 0.42px;
 }
 
-/* Footer-nav-bar */
+/* Footer-navbar */
 
 .footer-navigation {
   display: flex;
@@ -86,7 +84,7 @@
   border-radius: 8px;
   background: rgba(251, 251, 251, 0.3);
   color: var(--main-color4);
-  transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 .footer-navigation-link:hover,
@@ -104,16 +102,28 @@
 .footer-soc-item {
   fill: var(--main-color4);
 }
+.footer-soc-item :hover,
+.footer-soc-item :focus,
+.footer-soc-item :visited{
+  fill: rgba(251, 251, 251, 0.8);
+}
 /* Media */
 @media screen and (min-width: 375px) and (max-width: 767px) {
-  .footer-container-iner {
+  .footer-container {
     min-width: 355px;
+    flex-shrink: 0;
+    height: 412px;
+ padding: 40px 30px 20px;
   }
+  .footer-navbar{
+    flex-direction: column;
+    margin-bottom: 40px;
+    }
   .footer-navigation {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 80px;
   }
-  
   .footer-logo {
     font-size: 14px;
     margin-right: 37px;
@@ -142,14 +152,26 @@
     color: var(--main-color3);
     border-radius: 8px;
   }
+  .footer-title {
+    max-width: 279px;
+    max-height: 72px;
+    margin-bottom: 82px;
+    color: var(--main-color4);
+    text-align: center;
+    font-size: 18px;
+    line-height: 100%; 
+    letter-spacing: -0.36px;
+  }
   .footer-soc-list {
     display: flex;
     gap: 8px;
-    margin-left: 96px;
+    margin: 0 auto;
   }
 
-  .footer-soc-item {
-    fill: var(--main-color4);
+  .footer-copyrights {
+    gap: 20px;
+    font-size: 12px;
+    letter-spacing: 0.36px;
   }
 }
 
