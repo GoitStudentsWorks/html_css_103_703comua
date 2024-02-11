@@ -14,7 +14,6 @@
   align-items: center;
   position: relative;
   background-color: var(--main-color3);
-  justify-content: space-between;
 }
 
 .footer-slogan {
@@ -25,6 +24,7 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
+  margin-bottom: 99px;
 }
 
 .footer-copyrights {
@@ -41,6 +41,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-bottom: 112px;
 }
 .footer-logo {
   color: var(--main-color4);
@@ -122,6 +123,7 @@
   }
   .footer-navbar {
     flex-direction: column;
+    margin-bottom: 40px;
   }
   .footer-navigation {
     display: flex;
@@ -190,6 +192,7 @@
   }
   .footer-navbar {
     flex-direction: column;
+    margin-bottom: 40px;
   }
   .footer-navigation {
     display: flex;
@@ -234,6 +237,7 @@
     font-size: 18px;
     line-height: 1;
     letter-spacing: -0.02em;
+    margin-bottom: 82px;
   }
   .footer-soc-list {
     display: flex;
@@ -251,7 +255,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-container {
-   padding: 50px 48px 20 px 48px;
+   padding: 50px 48px 20px 48px;
     width: calc(100% - 32px);
     
   }
@@ -264,6 +268,12 @@
 @media screen and (min-width: 1280px) {
   .footer-container {
     min-width: 1080px;
+  }
+  .footer-slogan {
+    max-width: 693px;
+    max-height: 399px;
+    line-height: 1; 
+    letter-spacing: -0.02em;
   }
 }
 
