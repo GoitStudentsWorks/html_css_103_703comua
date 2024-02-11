@@ -29,7 +29,7 @@
     top: -59px;
   }
   .about-text {
-    padding: 40px 20px 50px 20px;
+    padding: 40px 20px 90px 20px;
   }
   .about-head {
     font-size: 28px;
@@ -39,7 +39,6 @@
     margin-bottom: 40px;
   }
   .about-text-container {
-    margin-bottom: 40px;
   }
   .about-design-text {
     font-size: 18px;
@@ -94,11 +93,11 @@
     padding-bottom: 100px;
   }
   .about-head {
-    width: 536px;
+    max-width: 536px;
     margin-bottom: 50px;
   }
   .about-text-container {
-    width: 389px;
+    max-width: 389px;
     margin-bottom: 50px;
   }
   .about-design-text {
@@ -114,28 +113,32 @@
     justify-content: space-between;
   }
   .about-head {
-    width: 537px;
+    max-width: 537px;
   }
   .about-text-container {
-    width: 354px;
+    max-width: 354px;
   }
   .about-design-text {
     margin-bottom: 20px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1240px) {
   .about {
   top: -35px;
+}
+}
+@media screen and (min-width: 1440px) {
+  .about {
 }
   .about-text {
     display: flex;
     justify-content: space-between;
   }
   .about-head {
-    width: 537px;
+    max-width: 537px;
   }
   .about-text-container {
-    width: 404px;
+    max-width: 404px;
   }
   .about-design-text {
     margin-bottom: 20px;
