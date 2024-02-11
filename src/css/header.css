@@ -8,6 +8,7 @@ transition: translateY(50%);
 
 .header-container {
     width: calc(100% - 40px);
+    max-width: 337px;
     padding-top: 13px;
     padding-bottom: 14px;
     padding-left: 21px;
@@ -24,6 +25,7 @@ transition: translateY(50%);
     color: var(--main-color3);
     font-size: 14px;
     font-weight: 500;
+    line-height: normal;
     letter-spacing: -0.03em;
 }
 
@@ -45,9 +47,9 @@ transition: translateY(50%);
     width: 28px;
     height: 28px;
     padding: 0;
-    right: 0;
-    transform: translateX(-50%);
-    top: 7px;
+    right: 20px;
+    transform: translateY(-50%);
+    top: 50%;
 }
 
 .mob-menu-close-btn.is-hidden {
@@ -76,7 +78,8 @@ transition: translateY(50%);
 }
 @media screen and (min-width: 375px) and (max-width: 767px){
     .header-container {
-        min-width: 335px;
+        min-width: 337px;
+        max-height: 44px;
     }
 }
 
