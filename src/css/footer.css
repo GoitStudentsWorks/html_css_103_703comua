@@ -106,7 +106,7 @@
   margin-right: 1px;
 }
 /* Media */
-@media screen and (min-width: 180px) and (max-width: 374px) {
+@media screen  and (max-width: 374px) {
   .footer-container {
     min-width: calc(100% - 20px);
     width: calc(100% - 20px);
