@@ -4,10 +4,9 @@
     margin: 0 auto;
     padding: 260px 0 292px 0;
     background-image: 
-    url(/img/hero/hero-mobile.webp);
+url(/img/hero/hero-mobile.webp);
     background-repeat: no-repeat;
-    background-position:  top center;
-
+    background-position:   center;
 }
 
 .hero-container{
@@ -29,9 +28,6 @@
     }
 }
 
-
-
-
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
@@ -39,6 +35,7 @@ screen and (min-resolution: 2dppx) {
      background-image:
      url(/img/hero/hero-mobile@2x.webp);
      max-width: 375px;
+    background-position: center;
   }
 
   @supports (not (background-image: url('/img/hero/hero-mobile.webp'))) {
@@ -283,6 +280,7 @@ screen and (min-resolution: 2dppx) {
             background-image: 
              url(/img/hero/hero-desktop@2x1440.webp);
              max-width: 1440px;
+            background-position: center;
         }
     }
 
