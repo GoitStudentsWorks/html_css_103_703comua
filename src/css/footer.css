@@ -4,7 +4,7 @@
 }
 
 .footer-container {
-  width: calc(100% - 25px);
+  width: calc(100% - 50px);
   margin: 0 auto;
   height: 418px;
   border-radius: 24px 24px 0px 0px;
@@ -14,15 +14,16 @@
   align-items: center;
   position: relative;
   background-color: var(--main-color3);
+  justify-content: space-between;
 }
+
 .footer-slogan {
   max-width: 699px;
   max-height: 399px;
-  margin-bottom: 99px;
   color: var(--main-color4);
   text-align: center;
   font-size: 32px;
-  line-height: 100%; /* 32px */
+  line-height: 100%; 
   letter-spacing: -0.64px;
 }
 
@@ -37,7 +38,7 @@
 /* Footer-navbar */
 .footer-navbar {
   display: flex;
-  margin-bottom: 96px;
+  
   max-width: 1240px;
   width: 100%;
   justify-content: space-between;
@@ -107,8 +108,8 @@
 /* Media */
 @media screen and (min-width: 180px) and (max-width: 374px) {
   .footer-container {
-    min-width: calc(100% - 10px);
-    width: calc(100% - 10px);
+    min-width: calc(100% - 20px);
+    width: calc(100% - 20px);
   }
   .footer {
     padding-top: 40px;
@@ -117,13 +118,12 @@
     min-width: 320px;
     height: 412px;
     padding: 40px 30px 20px;
-    width: calc(100% - 16px);
+    width: calc(100% - 32px);
     justify-content: space-between;
     position: relative;
   }
   .footer-navbar {
     flex-direction: column;
-    margin-bottom: 40px;
   }
   .footer-navigation {
     display: flex;
@@ -156,7 +156,6 @@
   .footer-slogan {
     max-width: 279px;
     max-height: 72px;
-    margin-bottom: 82px;
     color: var(--main-color4);
     text-align: center;
     font-size: 18px;
@@ -184,13 +183,12 @@
     min-width: 355px;
     height: 412px;
     padding: 40px 30px 20px;
-    width: calc(100% - 16px);
+    width: calc(100% - 32px);
     justify-content: space-between;
     position: relative;
   }
   .footer-navbar {
     flex-direction: column;
-    margin-bottom: 40px;
   }
   .footer-navigation {
     display: flex;
@@ -230,7 +228,6 @@
   .footer-slogan {
     max-width: 279px;
     max-height: 72px;
-    margin-bottom: 82px;
     color: var(--main-color4);
     text-align: center;
     font-size: 18px;
