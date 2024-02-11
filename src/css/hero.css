@@ -283,6 +283,7 @@ screen and (min-resolution: 2dppx) {
             background-image: 
              url(/img/hero/hero-desktop@2x1440.webp);
              max-width: 1440px;
+            background-position: center;
         }
     }
 
