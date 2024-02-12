@@ -231,7 +231,7 @@
 @media screen and (max-width: 345px) {
 
   .footer-navigation-list {
-    top: 30px;
+    top: 50px;
     right: unset;
     left: 50%;
     transform: translateX(-50%);
