@@ -6,7 +6,8 @@
     background-image: 
 url(/img/hero/hero-mobile.webp);
     background-repeat: no-repeat;
-    background-position:   center;
+    background-position:  top center;
+    background-size: cover;
 }
 
 .hero-container{
@@ -30,8 +31,6 @@ screen and (min-resolution: 2dppx) {
     .hero {
      background-image:
      url(/img/hero/hero-mobile@2x.webp);
-     max-width: 375px;
-    background-position: center;
   }
 
   @supports (not (background-image: url('/img/hero/hero-mobile.webp'))) {
@@ -140,25 +139,19 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-width: 768px) {
     .hero {
         background-image: url(/img/hero/hero-tablet.webp);
-        background-repeat: no-repeat;
-        background-position: top center;
     }
 
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
         .hero {
-            background-image: 
-                url(/img/hero/hero-tablet@2x.webp);
-                min-width: 768px;
-                background-position:  center;
+            background-image: url(/img/hero/hero-tablet@2x.webp);
         }
     }
 
     @supports (not (background-image: url('/img/hero/hero-tablet.webp'))) {
          .hero {
-            background-image: 
-            url(/img/hero/hero-tablet.jpg);
+            background-image: url(/img/hero/hero-tablet.jpg);
             }
          }
 
@@ -201,8 +194,6 @@ screen and (min-resolution: 2dppx) {
     .hero {
         background-image: 
         url(/img/hero/hero-desktop1280.webp);
-        background-repeat: no-repeat;
-        background-position:  top center;
     }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -211,8 +202,6 @@ screen and (min-resolution: 2dppx) {
     .hero {
         background-image: 
         url(/img/hero/hero-desktop@2x1280.webp);
-        min-width: 1280px;
-        background-position: center;
         }
     }
 
@@ -265,8 +254,6 @@ screen and (min-resolution: 2dppx) {
     .hero {
         background-image: 
         url(/img/hero/hero-desktop1440.webp);
-        background-repeat: no-repeat;
-        background-position: top center;
     }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -275,8 +262,6 @@ screen and (min-resolution: 2dppx) {
         .hero {
             background-image: 
              url(/img/hero/hero-desktop@2x1440.webp);
-             max-width: 1440px;
-            background-position: center;
         }
     }
 

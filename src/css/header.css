@@ -215,7 +215,7 @@ left: 0;
     transform: translate(0, 0);
 }
 
-.mob-navigation-list {
+.mob-menu-navigation-list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -223,7 +223,7 @@ left: 0;
     flex-grow: 1;
 }
 
-.mob-navigation-item {
+.mob-menu-navigation-item {
     color: var(--main-color4);
     text-align: center;
     font-size: 9px;
@@ -232,7 +232,7 @@ left: 0;
     text-transform: uppercase;
 }
 
-.mob-navigation-link {
+.mob-menu-navigation-link {
     display: flex;
     background: rgba(27, 65, 75, 0.50);
     align-items: center;
@@ -243,34 +243,37 @@ left: 0;
     transition: background-color 250ms ease-in-out;
 }
     
-.mob-navigation-link:hover,
-.mob-navigation-link:focus {
+.mob-menu-navigation-link:hover,
+.mob-menu-navigation-link:focus {
     background: var(--main-color3);
 }
 
-.mob-navigation-link.active {
+.mob-menu-navigation-link.active {
     background: var(--main-color3);
 }
 
-.mob-soc-list {
+.mob-menu-soc-list {
     display: flex;
-    text-align: end;
     justify-content: center;
     gap: 12px;
 }
 
-.mob-soc-icon {
+.mob-menu-soc-item {
+    align-self: flex-end;
+}
+
+.mob-menu-soc-icon {
     fill: var(--main-color4);
     transition: fill-opacity 250ms ease-in-out;
 }
 
-.mob-soc-icon:hover,
-.mob-soc-icon:focus {
+.mob-menu-soc-icon:hover,
+.mob-menu-soc-icon:focus {
     fill-opacity: 0.8;
 }
 
-.mob-soc-icon-instagram {
-    margin-right: 1px;
+.mob-menu-soc-icon-instagram {
+    margin-right: 1px;  
     width: 19px;
     height: 19px;
 }
