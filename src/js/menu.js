@@ -15,18 +15,57 @@
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
-  // Изначально скрываем иконку закрытия меню
   closeMenuIcon.classList.add('is-hidden');
 
   openMenuBtn.addEventListener('click', toggleMenu);
 
-  const closeMenuLink = document.querySelectorAll('.mob-menu-link');
-  closeMenuLink.forEach(item => item.addEventListener('click', toggleMenu));
+// Функція для зняття фокусу з активних посилань
+const removeFocusFromLinks = () => {
+  document.querySelectorAll('a').forEach(link => {
+    link.blur();
+  });
+};
+
+// Функція для плавного прокручування до якоря та закриття мобільного меню (якщо воно відкрите)
+const smoothScrollAndCloseMenu = (event) => {
+  event.preventDefault(); // Запобігаємо стандартній дії посилання
+  const targetId = event.currentTarget.getAttribute('href'); // Отримуємо ідентифікатор якоря
+  const targetElement = document.querySelector(targetId); // Знаходимо елемент, який посилається якір
+  if (targetElement) {
+    // Прокручуємо сторінку до елемента з плавною анімацією
+    targetElement.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start' // Прокручуємо так, щоб елемент був у верхній частині вікна
+    });
+    // Закриваємо мобільне меню (якщо це мобільне меню і воно відкрите)
+    const mobileMenu = document.querySelector('.js-menu-container');
+    if (mobileMenu && mobileMenu.classList.contains('is-open')) {
+      toggleMenu();
+    }
+  }
+  // Знімаємо фокус із активних посилань
+  removeFocusFromLinks();
+};
+
+// Додаємо обробники подій для всіх посилань з якорями у мобільному меню
+const mobileMenuLinks = document.querySelectorAll('.mob-menu-link');
+mobileMenuLinks.forEach(link => {
+  link.addEventListener('click', smoothScrollAndCloseMenu);
+});
+
+// Додаємо обробники подій для всіх посилань з якорями на сторінці
+const anchorLinks = document.querySelectorAll('a[href^="#"]:not(.mob-menu-link)');
+anchorLinks.forEach(link => {
+  link.addEventListener('click', smoothScrollAndCloseMenu);
+});
+
+// Додаємо обробники подій для всіх посилань з якорями на сторінці
+document.addEventListener('click', removeFocusFromLinks);
+
 
   const closeMenuBtn = document.querySelector('.js-close-menu');
   closeMenuBtn.addEventListener('click', toggleMenu);
 
-  // Close the mobile menu on wider screens if the device orientation changes check
   window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
     if (!e.matches) return;
     mobileMenu.classList.remove('is-open');
