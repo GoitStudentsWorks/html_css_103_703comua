@@ -153,7 +153,7 @@
     max-width: 177px;
 }
 
-.yachts-container {
+.yachts {
     padding-top: 0;
 }
 
@@ -162,6 +162,7 @@
         padding-left: 21px;
     }
 }
+
 @media screen and (min-width: 768px) {
     .yachts-title {
         max-width: 645px;
@@ -217,7 +218,7 @@
         height: 52px;
     }
 
-    .yachts-container {
+    .yachts {
         padding-top: 63px;
     }
 }
@@ -251,8 +252,11 @@
         letter-spacing: 0.03em;
     }
 
-    .yachts-container {
+    .yachts {
         padding-top: 95px;
+    }
+
+    .yachts-container {
         padding-left: 50px;
         padding-right: 50px;
     }

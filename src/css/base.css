@@ -124,3 +124,42 @@ picture {
 	visibility: hidden;
 	pointer-events: none;
 }
+
+.go-top {
+	position: fixed;
+	/* фиксированное позиционирование */
+	left: 10px;
+	/* отступ слева 20px */
+	top: 50%;
+	/* выравниваем по центру */
+	transform: translateY(-50%);
+	/* выравниваем по центру */
+	display: none;
+	align-items: center;
+	justify-content: center;
+	/* по умолчанию скрываем кнопку */
+	font-size: 14px;
+
+	width: 50px;
+	height: 50px;
+	color: var(--main-color4);
+	background-color: var(--main-color3);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	border-radius: 50%;
+	border: none;
+	opacity: 0.5;
+}
+
+/* меняем прозрачность при наведении мышкой */
+.go-top:hover {
+	color: var(--main-color3);
+	background-color: var(--main-color4);
+	opacity: 1;
+}
+
+/* модификатор для отображения кнопки */
+.go-top-visible {
+	display: flex;
+}
