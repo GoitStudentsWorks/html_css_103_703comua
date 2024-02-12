@@ -8,6 +8,7 @@ url(/img/hero/hero-mobile.webp);
     background-repeat: no-repeat;
     background-position:  top center;
     background-size: cover;
+    max-width: 375px;
 }
 
 .hero-container{
