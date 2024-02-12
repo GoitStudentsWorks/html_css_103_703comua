@@ -105,9 +105,7 @@
 }
 
 .footer-soc-item,
-.footer-soc-item :visited {}
-
-.footer-soc-item {
+.footer-soc-item:visited {
   fill: var(--main-color4);
   transition: fill-opacity 250ms ease-in-out;
 }
