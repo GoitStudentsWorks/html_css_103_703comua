@@ -104,14 +104,14 @@
   gap: 12px;
 }
 
-.footer-soc-item,
-.footer-soc-item:visited {
+.footer-soc-icon,
+.footer-soc-icon:visited {
   fill: var(--main-color4);
   transition: fill-opacity 250ms ease-in-out;
 }
 
-.footer-soc-item:hover,
-.footer-soc-item:focus {
+.footer-soc-icon:hover,
+.footer-soc-icon:focus {
   fill-opacity: 0.8;
 }
 
