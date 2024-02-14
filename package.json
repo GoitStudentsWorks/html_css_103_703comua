@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/code-masters/",
+    "build": "vite build --base=/html_css_103_703comua/",
     "preview": "vite preview"
   },
   "devDependencies": {
